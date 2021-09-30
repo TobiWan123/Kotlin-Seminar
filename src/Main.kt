@@ -1,3 +1,11 @@
+/**
+ * Dieses Projekt dient der Seminararbeit 1 zu Kotlin für die Technsiche Hochschule Mittelhessen
+ * Es enthält Funktionen von Kotlin zu jenen, welche in der Seminararbeit behandelt wurden
+ *
+ * Tobias Walter
+ * Technische Hochschule Mittelhessen
+ */
+
 abstract class BeispielKlasse(){
     abstract var nachricht: String
     abstract fun printNachricht()
