@@ -4,7 +4,7 @@
  *
  * Tobias Walter
  * Technische Hochschule Mittelhessen
- */
+ **/
 
 abstract class BeispielKlasse(){
     abstract var nachricht: String
