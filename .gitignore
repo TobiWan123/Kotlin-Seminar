@@ -23,7 +23,7 @@
 hs_err_pid*
 
 # git
-/hooks
-/info
-/objects
-/refs
+./hooks
+./info
+./objects
+./refs
