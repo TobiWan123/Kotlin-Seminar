@@ -1,6 +1,6 @@
 /**
- * Dieses Projekt dient der Seminararbeit 1 zu Kotlin für die Technsiche Hochschule Mittelhessen
- * Es enthält Funktionen von Kotlin zu jenen, welche in der Seminararbeit behandelt wurden
+Dieses Projekt dient der Seminararbeit 1 zu Kotlin für die Technsiche Hochschule Mittelhessen
+ * Es enthält Funktionen von Kotlin zu den enstprechenden Kapiteln der Seminararbeit 
  *
  * Tobias Walter
  * Technische Hochschule Mittelhessen
