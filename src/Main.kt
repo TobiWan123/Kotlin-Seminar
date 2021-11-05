@@ -45,6 +45,9 @@ class BeispielKlasseErbe(text: String, zahl: Int): BeispielKlasse(){
         ausgabe = Integer(ausgabe.toInt() + 1)
     }
 
+    fun prinNachrichtErbe(){
+        println(nachricht)
+    }
 
     /** Init-Blöcke
      * Nicht in Java verfügbar
@@ -83,12 +86,12 @@ fun main() {
     /** TypeCasts
      * In Java über instanceOf möglich, aber es ist ein zusätzlicher Cast notwendig
      * um Funktionen der geprüften Klasse zu verwenden
-     * BeispielKlasse klasseCasted = (BeispielKlasseErbe) klasse; **/
+     * BeispielKlasseErbe klasseCasted = (BeispielKlasseErbe) klasse; **/
 
     var klasse: BeispielKlasse = BeispielKlasseErbe("text", 1)
 
     if (klasse is BeispielKlasseErbe){
-        klasse.printNachricht()
+        klasse.prinNachrichtErbe();
     }
 
     /** Maybe-Typen
@@ -186,6 +189,11 @@ fun main() {
     // getter
     println(klasse.nachricht)
 
+    /** Extension - nicht in Java verfügbar
+     *  ListUtils.sum(liste) **/
+
+    // Zugriff über Vererbungshierarchie ohne TypeCast
+    listOf<Int>(1,2,3).sum();
 }
 
 
